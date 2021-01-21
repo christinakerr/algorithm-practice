@@ -1,12 +1,25 @@
 let fib = function(n) {
-    let result = 0;
-    let accumulator = 0;
-    for (let i = 0; i <= n; i++){
-        accumulator = result;
-        result += accumulator;
-        console.log(result);
+    if (n === 0){
+        return 0;
     }
-    return result;
+    if (n === 1){
+        return 1;
+    }
+
+    let num1 = 0;
+    let num2 = 1;
+    let next;
+    let count = 2;
+    let result;
+
+    while (count <= n){
+        next = num1 + num2;
+        num1 = num2;
+        num2 = next;
+        result = next;
+        count++;
+    }
+    return next;
 }
 
-console.log(fib(5));
+console.log(fib(6));
