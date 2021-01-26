@@ -1,0 +1,33 @@
+.box-one{
+    background-color: yellow;
+    color: orange;
+    height: 1000px;
+    
+}
+
+.box-two {
+    background-color: blue;
+    color: grey;
+    height: 750px;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.box-three {
+    background-color: darkgrey;
+    color: white;
+    height: 600px;
+    margin: 0px 20px 0px 100px;
+
+}
+
+.box-four {
+    background-color: grey;
+    color: cyan;
+    height: 250px;
+    margin: 0px 100px 0px 100px;
+}
+
+p {
+    float: left;
+}
