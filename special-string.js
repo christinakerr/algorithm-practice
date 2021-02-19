@@ -1,0 +1,3 @@
+function substrCount(n, s){
+    
+}
